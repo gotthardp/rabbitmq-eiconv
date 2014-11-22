@@ -19,5 +19,5 @@ endef
 define package_rules
 $(NIF_LIBRARY): $(NIF_SOURCES)
 	mkdir -p $(CLONE_DIR)/priv
-	gcc $(NIF_SOURCES) -fpic -shared -I /usr/lib/erlang/usr/include -o $(NIF_LIBRARY)
+	gcc $(NIF_SOURCES) -fpic -shared -I /usr/lib/erlang/usr/include -I /usr/local/lib/erlang/usr/include -o $(NIF_LIBRARY)
 endef
