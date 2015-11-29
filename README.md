@@ -7,6 +7,7 @@ This is a legacy code. It is not required for RabbitMQ v3.6.x and beyond.
     $ git clone https://github.com/rabbitmq/rabbitmq-public-umbrella.git
     $ cd rabbitmq-public-umbrella
     $ make co
+    $ ./foreachrepo git checkout <tag>
     $ git clone https://github.com/gotthardp/rabbitmq-eiconv.git
     $ cd rabbitmq-eiconv
     $ make
